@@ -1,0 +1,147 @@
+/* Reset de estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #aa1010;
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.produtos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    text-align: center;
+}
+.produto {
+    background-color: #f9f9f9;
+    padding: 100px;
+    border: 0.5px solid #ccc;
+    border-radius: 2px;
+}
+
+.produto h2 {
+    margin-bottom: 10px;
+}
+
+.produto img {
+    width: 500px;
+    height: 500px;
+}
+
+.produto p {
+    margin-bottom: 15px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    margin-top: 10px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ff0000;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form .submit-btn {
+    align-self: flex-start;
+    background-color: #28a745;
+}
+
+form .submit-btn:hover {
+    background-color: #218838;
+}
+
+footer {
+    text-align: center;
+    margin-top: 10px;
+    padding: 100000px 0;
+    background-color: #230357;
+    color: #fff;
+}
+
+footer .contato {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #230357;
+}
+
+footer .contato h2 {
+    margin-bottom: 10px;
+}
+
+footer .contato p {
+    margin-bottom: 10px;
+}
+
+footer .contato .whatsapp-btn {
+    background-color: #25d366;
+}
+
+footer .contato .whatsapp-btn:hover {
+    background-color: #128c7e;
+}
